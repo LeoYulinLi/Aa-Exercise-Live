@@ -3,6 +3,12 @@
 # The method should return false otherwise. For example coprime?(25, 12) is true because
 # 1 is the only number that divides both 25 and 12.
 
+def coprime?(num_1, num_2)
+
+    (2..[num_1, num_2].min).none? { |n| num_1 % n == 0 && num_2 % n ==0 }
+
+end 
+
 
 p coprime?(25, 12)    # => true
 p coprime?(7, 11)     # => true
