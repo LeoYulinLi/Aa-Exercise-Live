@@ -11,6 +11,24 @@
 
 
 def my_rotate!(array, amt)
+    # temp = array[amt..-1] + array[0...amt] 
+    # (0...array.length).each {  |i| array[i] = temp[i]  }
+    # array
+
+    # When given a positive 'amt', a single rotation will rotate left, causing the first element to move to the last index
+    if amt > 0 
+        amt.times do 
+            ele = array.shift
+            array.push(ele)
+        end 
+    else 
+        # When given a negative 'amt', a single rotation will rotate right, causing the last element to move to the first index
+        (-amt).times do 
+            ele = array.pop
+            array.unshift(ele)
+        end 
+    end 
+    array 
 
 end
 
