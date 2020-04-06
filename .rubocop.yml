@@ -1,0 +1,10 @@
+Style/StringLiterals:
+  Enabled: false
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/*.rb'
+    - 'spec/**/*.rb'
+Metrics/LineLength:
+  Max: 120
+Style/NumericPredicate:
+  Enabled: false
