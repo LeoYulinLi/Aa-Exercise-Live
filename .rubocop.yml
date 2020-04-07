@@ -4,7 +4,8 @@ Metrics/BlockLength:
   Exclude:
     - 'spec/*.rb'
     - 'spec/**/*.rb'
-Metrics/LineLength:
+Layout/LineLength:
+  Enabled: true
   Max: 120
 Style/NumericPredicate:
   Enabled: false
