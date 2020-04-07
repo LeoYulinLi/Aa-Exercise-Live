@@ -5,7 +5,12 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/Aa-Exercise-Live.iml" filepath="$PROJECT_DIR$/.idea/Aa-Exercise-Live.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/advanced_methods_exercise.iml" filepath="$PROJECT_DIR$/.idea/modules/advanced_methods_exercise.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/algorithmic_strategies_exercise.iml" filepath="$PROJECT_DIR$/.idea/modules/algorithmic_strategies_exercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/blocks_project.iml" filepath="$PROJECT_DIR$/.idea/modules/blocks_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/debugging_exercise_1.iml" filepath="$PROJECT_DIR$/.idea/modules/debugging_exercise_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/debugging_exercise_2.iml" filepath="$PROJECT_DIR$/.idea/modules/debugging_exercise_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/procs_project.iml" filepath="$PROJECT_DIR$/.idea/modules/procs_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/references_exercise.iml" filepath="$PROJECT_DIR$/.idea/modules/references_exercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rspec_exercise_1.iml" filepath="$PROJECT_DIR$/.idea/modules/rspec_exercise_1.iml" />
     </modules>
   </component>
 </project>
