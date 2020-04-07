@@ -8,3 +8,5 @@ Metrics/LineLength:
   Max: 120
 Style/NumericPredicate:
   Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
