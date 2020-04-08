@@ -19,7 +19,7 @@ end
 
 def dupe_indices(arr)
   arr.map.with_index {|ele, idx| [ele, idx]}
-     .each_with_object (Hash.new{ |h, k| h[k] = [] }) { |(ele, idx), acc| acc[ele] << idx }
+     .each_with_object(Hash.new{ |h, k| h[k] = [] }) { |(ele, idx), acc| acc[ele] << idx }
      .select { |_, array| array.length > 1 }
 end
 
