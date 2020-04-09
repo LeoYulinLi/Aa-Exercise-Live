@@ -22,7 +22,7 @@ def rampant_repeats(string, hash)
 end
 
 def perfect_square?(num)
-  result = sqrt(num)
+  result = Math.sqrt(num)
   result.to_i == result
 end
 
@@ -184,7 +184,7 @@ end
 
 def closest_prime(target, dev)
   if dev > 0
-    prime_sequence.drop_while { |n| n <= target }.first(dev)[-1]
+    prime_sequence.lazy.drop_while { |n| n <= target }.first(dev)[-1]
   else
     prime_sequence.take_while { |n| n < target }[dev]
   end
