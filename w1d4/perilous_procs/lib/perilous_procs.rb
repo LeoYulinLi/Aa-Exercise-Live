@@ -16,13 +16,13 @@ end
 # Solve this using Array#each.
 
 def exactly?(arr, num, &prc)
-    count = 0
+  count = 0
 
-    arr.each do |ele|
-        count += 1 if prc.call(ele)
-    end
+  arr.each do |ele|
+    count += 1 if prc.call(ele)
+  end
 
-    count == num
+  count == num
 end
 
 # p exactly?(['A', 'b', 'C'], 2) { |el| el == el.upcase }         # true
@@ -58,13 +58,13 @@ end
 # Solve this using Array#each.
 
 def at_least?(arr, num, &prc)
-    count = 0
+  count = 0
 
-    arr.each do |ele|
-        count += 1 if prc.call(ele)
-        return true if count >= num
-    end
-    false
+  arr.each do |ele|
+    count += 1 if prc.call(ele)
+    return true if count >= num
+  end
+  false
 end
 
 
@@ -112,14 +112,14 @@ end
 # Solve this using Array#each.
 
 def at_most?(arr, num, &prc)
-    count = 0
+  count = 0
 
-    arr.each do |ele|
-        count += 1 if prc.call(ele)
-        return false if count > num
-    end
+  arr.each do |ele|
+    count += 1 if prc.call(ele)
+    return false if count > num
+  end
 
-    true
+  true
 end
 
 # p at_most?([-4, 100, -3], 1) { |el| el > 0 }                         # true
@@ -155,7 +155,7 @@ end
 # The method should return a new array containing elements of the original array that either return true for both procs or return false for both procs.
 
 def xnor_select(array, proc1, proc2)
-    array.select {|ele| !(proc1.call(ele) ^ proc2.call(ele))}
+  array.select { |ele| !(proc1.call(ele) ^ proc2.call(ele)) }
 end
 
 # is_even = Proc.new { |n| n % 2 == 0 }
@@ -204,16 +204,16 @@ end
 # The method should return a new array where each element of the original array is repeatedly run through the block n times. 
 # If the number argument is not passed in, then the the elements should be run through the block once.
 
-def multi_map(array, num=1, &prc)
-    array.map do |ele|
-        temp = ele
+def multi_map(array, num = 1, &prc)
+  array.map do |ele|
+    temp = ele
 
-        num.times do 
-            temp = prc.call(temp)
-        end
-
-        temp
+    num.times do
+      temp = prc.call(temp)
     end
+
+    temp
+  end
 end
 
 # p multi_map(['pretty', 'cool', 'huh?']) { |s| s + '!'}      # ["pretty!", "cool!", "huh?!"]
@@ -230,7 +230,7 @@ end
 def proctition(array, &prc)
   left = []
   right = []
-  
+
   array.each do |ele|
     if prc.call(ele)
       left << ele
@@ -257,14 +257,14 @@ end
 # This method should mutate the input array and return nil.
 
 def selected_map!(array, proc1, proc2)
-    array.map! do |ele|
-        if proc1.call(ele)
-            proc2.call(ele)
-        else
-            ele
-        end
+  array.map! do |ele|
+    if proc1.call(ele)
+      proc2.call(ele)
+    else
+      ele
     end
-    nil
+  end
+  nil
 end
 
 # is_even = Proc.new { |n| n.even? }
@@ -317,17 +317,17 @@ end
 # If an original word returns true for multiple procs, then the suffixes should be appended in the order that they appear in the input hash.
 
 def proc_suffix(sentence, hash)
-    
-    sentence.split(" ").map do |word|
-        temp = word
 
-        hash.each do |proc,suffix|
-            temp = temp + suffix if proc.call(word)
-        end
-        
-        temp
+  sentence.split(" ").map do |word|
+    temp = word
 
-    end.join(" ")
+    hash.each do |proc, suffix|
+      temp = temp + suffix if proc.call(word)
+    end
+
+    temp
+
+  end.join(" ")
 
 end
 
@@ -408,16 +408,16 @@ end
 # If an original word returns true for multiple key procs, then the value proc changes should be applied in the order that they appear in the hash.
 
 def procipher(sentence, hash)
-    
-    sentence.split(" ").map do |word|
-        temp = word
 
-        hash.each do |condition, action|
-            temp = action.call(temp) if condition.call(word)
-        end
+  sentence.split(" ").map do |word|
+    temp = word
 
-        temp
-    end.join(" ")
+    hash.each do |condition, action|
+      temp = action.call(temp) if condition.call(word)
+    end
+
+    temp
+  end.join(" ")
 end
 
 # is_yelled = Proc.new { |s| s[-1] == '!' }
@@ -462,16 +462,16 @@ def picky_procipher(sentence, hash)
   already_proced = []
 
   sentence.split(" ").map do |word|
-      temp = word
+    temp = word
 
-      hash.each do |condition, action|
-        if condition.call(word) && !already_proced.include?(word)
-          temp = action.call(temp)
-          already_proced << word
-        end
+    hash.each do |condition, action|
+      if condition.call(word) && !already_proced.include?(word)
+        temp = action.call(temp)
+        already_proced << word
       end
+    end
 
-      temp
+    temp
   end.join(" ")
 end
 
@@ -483,28 +483,28 @@ reverse = Proc.new { |s| s.reverse }
 add_smile = Proc.new { |s| s + ':)' }
 
 p picky_procipher('he said what!',
-    is_yelled => make_question,
-    contains_a => reverse
-) # "he dias what!???"
+                  is_yelled => make_question,
+                  contains_a => reverse
+  ) # "he dias what!???"
 
 p picky_procipher('he said what!',
-    contains_a => reverse,
-    is_yelled => make_question
-) # "he dias !tahw"
+                  contains_a => reverse,
+                  is_yelled => make_question
+  ) # "he dias !tahw"
 
 p picky_procipher('he said what!',
-    contains_a => reverse,
-    is_yelled => add_smile
-) # "he dias !tahw"
+                  contains_a => reverse,
+                  is_yelled => add_smile
+  ) # "he dias !tahw"
 
 p picky_procipher('stop that taxi now',
-    is_upcase => add_smile,
-    is_yelled => reverse,
-    contains_a => make_question
-) # "stop that??? taxi??? now"
+                  is_upcase => add_smile,
+                  is_yelled => reverse,
+                  contains_a => make_question
+  ) # "stop that??? taxi??? now"
 
 p picky_procipher('STOP that taxi!',
-    is_upcase => add_smile,
-    is_yelled => reverse,
-    contains_a => make_question
-) # "STOP:) that??? !ixat"
+                  is_upcase => add_smile,
+                  is_yelled => reverse,
+                  contains_a => make_question
+  ) # "STOP:) that??? !ixat"
