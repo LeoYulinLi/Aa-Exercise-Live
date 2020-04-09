@@ -3,7 +3,7 @@ def proper_factors(num)
 end
 
 def aliquot_sum(num)
-    proper_factors(num).sum
+  proper_factors(num).sum
 end
 
 def perfect_number?(num)
@@ -11,19 +11,16 @@ def perfect_number?(num)
 end
 
 def ideal_sequence
-    Enumerator.new do |y|
-        num = 1
-        loop do   
-            y << num if perfect_number?(num)
-            num += 1
-        end
-
+  Enumerator.new do |y|
+    num = 1
+    loop do
+      y << num if perfect_number?(num)
+      num += 1
     end
-
+  end
 end
 
 
-
 def ideal_numbers(num)
-    ideal_sequence.take(num)
+  ideal_sequence.take(num)
 end

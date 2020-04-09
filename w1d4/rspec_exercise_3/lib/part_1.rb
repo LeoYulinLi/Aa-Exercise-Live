@@ -24,13 +24,13 @@ end
 # y << 
 
 def prime_sequence
-    Enumerator.new do |y|
-        count = 1
-        loop do 
-            y << nth_prime(count)
-            count += 1
-        end
+  Enumerator.new do |y|
+    count = 1
+    loop do
+      y << nth_prime(count)
+      count += 1
     end
+  end
 end
 
 # Kotlin
@@ -39,5 +39,5 @@ end
 # a.take_while { |n| n <= 6 } => [1, 2, 6]
 
 def prime_range(min, max)
-    prime_sequence.lazy.drop_while { |n| n < min }.take_while { |n| n <= max }.to_a
+  prime_sequence.lazy.drop_while { |n| n < min }.take_while { |n| n <= max }.to_a
 end

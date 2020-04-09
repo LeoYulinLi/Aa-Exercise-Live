@@ -17,13 +17,13 @@ def my_one?(array, &prc)
 end
 
 def hash_select(hash, &prc)
-    result_hash = {}
+  result_hash = {}
 
-    hash.each do |k, v|
-        result_hash[k] = v if prc.call(k,v)
-    end
+  hash.each do |k, v|
+    result_hash[k] = v if prc.call(k, v)
+  end
 
-    result_hash
+  result_hash
 end
 
 def xor_select(array, proc1, proc2)
@@ -31,7 +31,7 @@ def xor_select(array, proc1, proc2)
 end
 
 def proc_count(val, proc_arr)
-    proc_arr.count {|proc| proc.call(val)}
+  proc_arr.count { |proc| proc.call(val) }
 end
 
 

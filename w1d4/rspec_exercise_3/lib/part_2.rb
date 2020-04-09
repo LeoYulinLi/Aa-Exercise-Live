@@ -16,11 +16,11 @@ end
 # hash.fetch(k, k)
 
 def char_replace!(str, hash)
-    (0...str.length).each do |idx|
-        str[idx] = hash.fetch(str[idx], str[idx])
-    end
+  (0...str.length).each do |idx|
+    str[idx] = hash.fetch(str[idx], str[idx])
+  end
 
-    str
+  str
 end
 
 
