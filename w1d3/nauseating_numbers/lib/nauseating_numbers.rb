@@ -151,8 +151,8 @@ end
 # [1, 3, 7, 2, 8].take_while { |i| i < 4 } => [1, 3]
 
 def triangular_word?(string)
-  sum = string.chars.map {|c| c.ord - "a".ord + 1}.sum
-  triangular_sequence.take_while {|i| i <= sum }.include?(sum)
+  sum = string.chars.map { |c| c.ord - "a".ord + 1 }.sum
+  triangular_sequence.take_while { |i| i <= sum }.include?(sum)
 end
 
 # [1, 2, 3, 4]
@@ -184,12 +184,12 @@ end
 
 def closest_prime(target, dev)
   if dev > 0
-    prime_sequence.drop_while {|n| n < target}.take(dev)[-1]
+    prime_sequence.drop_while { |n| n <= target }.first(dev)[-1]
   else
-    prime_sequence.take_while {|n| n < target}[dev]
+    prime_sequence.take_while { |n| n < target }[dev]
   end
 end
 
 def pretentious_primes(arr, n)
-  arr.map {|i| closest_prime(i, n)}
+  arr.map { |i| closest_prime(i, n) }
 end
