@@ -317,18 +317,13 @@ end
 # If an original word returns true for multiple procs, then the suffixes should be appended in the order that they appear in the input hash.
 
 def proc_suffix(sentence, hash)
-
   sentence.split(" ").map do |word|
     temp = word
-
     hash.each do |proc, suffix|
       temp = temp + suffix if proc.call(word)
     end
-
     temp
-
   end.join(" ")
-
 end
 
 
