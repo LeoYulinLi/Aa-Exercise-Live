@@ -10,6 +10,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/debugging_exercise_1.iml" filepath="$PROJECT_DIR$/.idea/modules/debugging_exercise_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/debugging_exercise_2.iml" filepath="$PROJECT_DIR$/.idea/modules/debugging_exercise_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/dog_project.iml" filepath="$PROJECT_DIR$/.idea/modules/dog_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/guessing_game_project.iml" filepath="$PROJECT_DIR$/.idea/modules/guessing_game_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hangman_project.iml" filepath="$PROJECT_DIR$/.idea/modules/hangman_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hotel_project.iml" filepath="$PROJECT_DIR$/.idea/modules/hotel_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/meddling_medley.iml" filepath="$PROJECT_DIR$/.idea/modules/meddling_medley.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/monkey_patching_project.iml" filepath="$PROJECT_DIR$/.idea/modules/monkey_patching_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/nauseating_numbers.iml" filepath="$PROJECT_DIR$/.idea/modules/nauseating_numbers.iml" />
@@ -21,6 +24,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/rspec_exercise_3.iml" filepath="$PROJECT_DIR$/.idea/modules/rspec_exercise_3.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/rspec_exercise_4.iml" filepath="$PROJECT_DIR$/.idea/modules/rspec_exercise_4.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/rspec_exercise_5.iml" filepath="$PROJECT_DIR$/.idea/modules/rspec_exercise_5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/startup_project.iml" filepath="$PROJECT_DIR$/.idea/modules/startup_project.iml" />
     </modules>
   </component>
 </project>
