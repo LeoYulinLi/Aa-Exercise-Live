@@ -1,5 +1,5 @@
 class Board
-
+  
   attr_reader :size
 
   def initialize(n)

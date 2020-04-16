@@ -1,9 +1,11 @@
 require_relative 'board'
 require_relative 'human_player'
+require_relative 'computer_player'
+require "byebug"
 
 class Game
-  def initialize(size, *marks)
-    @players = marks.map { |mark| HumanPlayer.new(mark) }
+  def initialize(size, hash)
+    @players = hash.map { |mark, is_computer| is_computer ? ComputerPlayer.new(mark) : HumanPlayer.new(mark) }
     @board = Board.new(size)
     @player_queue = @players.map { |player| player }
   end
@@ -16,7 +18,7 @@ class Game
     while @board.empty_positions?
       @board.print
       current_player = @player_queue.first
-      @board.place_mark(current_player.get_position, current_player.mark)
+      @board.place_mark(current_player.get_position(@board.legal_positions), current_player.mark)
       if @board.win?(current_player.mark)
         p "Victory: #{current_player}"
         return
@@ -28,6 +30,7 @@ class Game
   end
 
 end
+  debugger
 
-game = Game.new(2, :y, :g)
-game.play
+machine_civil_war = Game.new(10, h: true, u: true, e: true)
+machine_civil_war.play

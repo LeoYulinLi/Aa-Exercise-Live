@@ -17,7 +17,7 @@ class Board
 
   def valid?(position)
     row, column = position
-    self[position] != nil && row >= 0 && column >= 0
+    (0...@length).include?(row) && (0...@length).include?(column)
   end
 
   def empty?(position)
@@ -62,4 +62,18 @@ class Board
   def empty_positions?
     @grid.flatten.any? { |s| s == "_" }
   end
+
+  # Also:
+  # (0...@length).flat_map { |row| (0...@length).map { |col| [row, col] } }
+  #              .select { |pos| valid?(pos) && empty?(pos) }
+  def legal_positions
+    result = []
+    @grid.each_with_index do |row, i|
+      row.each_with_index do |ele, index|
+        result << [i, index] if valid?([i, index]) && empty?([i, index])
+      end
+    end
+    result
+  end
+
 end

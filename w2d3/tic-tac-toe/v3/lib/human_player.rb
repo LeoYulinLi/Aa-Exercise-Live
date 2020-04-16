@@ -6,9 +6,15 @@ class HumanPlayer
     @mark = mark_value
   end
 
-  def get_position
+  # "0 1" => [0, 1]
+  def get_position(legal_positions)
     print "Enter location "
-    gets.chomp.split.map(&:to_i)
+    response = gets.chomp.split.map(&:to_i)
+    until legal_positions.include?(response)
+      p "#{response} is not a legal position"
+      response = gets.chomp.split.map(&:to_i)
+    end
+    response
   end
 
 end
