@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/Aa-Exercise-Live.iml" filepath="$PROJECT_DIR$/.idea/Aa-Exercise-Live.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/advanced_methods_exercise.iml" filepath="$PROJECT_DIR$/.idea/modules/advanced_methods_exercise.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/algorithmic_strategies_exercise.iml" filepath="$PROJECT_DIR$/.idea/modules/algorithmic_strategies_exercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/battleship_project.iml" filepath="$PROJECT_DIR$/.idea/modules/battleship_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/blocks_project.iml" filepath="$PROJECT_DIR$/.idea/modules/blocks_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/bootcamp_project.iml" filepath="$PROJECT_DIR$/.idea/modules/bootcamp_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/debugging_exercise_1.iml" filepath="$PROJECT_DIR$/.idea/modules/debugging_exercise_1.iml" />
@@ -13,11 +14,16 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/guessing_game_project.iml" filepath="$PROJECT_DIR$/.idea/modules/guessing_game_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/hangman_project.iml" filepath="$PROJECT_DIR$/.idea/modules/hangman_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/hotel_project.iml" filepath="$PROJECT_DIR$/.idea/modules/hotel_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mastermind_project.iml" filepath="$PROJECT_DIR$/.idea/modules/mastermind_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/meddling_medley.iml" filepath="$PROJECT_DIR$/.idea/modules/meddling_medley.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/monkey_patching_project.iml" filepath="$PROJECT_DIR$/.idea/modules/monkey_patching_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/nauseating_numbers.iml" filepath="$PROJECT_DIR$/.idea/modules/nauseating_numbers.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/perilous_procs.iml" filepath="$PROJECT_DIR$/.idea/modules/perilous_procs.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/procs_project.iml" filepath="$PROJECT_DIR$/.idea/modules/procs_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/recap_exercise_1.iml" filepath="$PROJECT_DIR$/.idea/modules/recap_exercise_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/recap_exercise_2.iml" filepath="$PROJECT_DIR$/.idea/modules/recap_exercise_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/recap_exercise_3.iml" filepath="$PROJECT_DIR$/.idea/modules/recap_exercise_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/recursion_exercise.iml" filepath="$PROJECT_DIR$/.idea/modules/recursion_exercise.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/references_exercise.iml" filepath="$PROJECT_DIR$/.idea/modules/references_exercise.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/rspec_exercise_1.iml" filepath="$PROJECT_DIR$/.idea/modules/rspec_exercise_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/rspec_exercise_2.iml" filepath="$PROJECT_DIR$/.idea/modules/rspec_exercise_2.iml" />
@@ -25,6 +31,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/rspec_exercise_4.iml" filepath="$PROJECT_DIR$/.idea/modules/rspec_exercise_4.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/rspec_exercise_5.iml" filepath="$PROJECT_DIR$/.idea/modules/rspec_exercise_5.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/startup_project.iml" filepath="$PROJECT_DIR$/.idea/modules/startup_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/v1.iml" filepath="$PROJECT_DIR$/.idea/modules/v1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/v2.iml" filepath="$PROJECT_DIR$/.idea/modules/v2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/v3.iml" filepath="$PROJECT_DIR$/.idea/modules/v3.iml" />
     </modules>
   </component>
 </project>
