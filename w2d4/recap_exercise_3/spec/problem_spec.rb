@@ -10,12 +10,12 @@ describe "Recap Exercise 3" do
           no_dupes?(%w(x x y z z))
           no_dupes?([true, true, true])
         end.to_not raise_error
+      end
 
-        it "should return an new array containing the elements that were not repeated in the array" do
-          expect(no_dupes?([1, 1, 2, 1, 3, 2, 4])).to eq([3, 4])
-          expect(no_dupes?(%w(x x y z z))).to eq(['y'])
-          expect(no_dupes?([true, true, true])).to eq([])
-        end
+      it "should return an new array containing the elements that were not repeated in the array" do
+        expect(no_dupes?([1, 1, 2, 1, 3, 2, 4])).to eq([3, 4])
+        expect(no_dupes?(%w(x x y z z))).to eq(['y'])
+        expect(no_dupes?([true, true, true])).to eq([])
       end
     end
 

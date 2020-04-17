@@ -12,8 +12,16 @@
 # pow(3, 4) # => 81
 # pow(4, 3) # => 64
 def pow(base, exponent)
+  
+  return 1 if exponent == 0
+  # return base if exponent == 1
+
+  pow(base, exponent - 1) * base
 
 end
+
+# pow (2, 1)
+# pow (2, 0) => 1
 
 
 # Write a method, lucas_number(n), that takes in a number.
@@ -36,6 +44,11 @@ end
 # lucas_number(9)   # =>    76
 def lucas_number(n)
 
+  return 2 if n == 0
+  return 1 if n == 1
+
+  lucas_number(n - 2) + lucas_number(n - 1)
+
 end
 
 
@@ -51,7 +64,8 @@ end
 # sum_array([5, 2])         # => 7
 # sum_array([4, 10, -1, 2]) # => 15
 def sum_array(array)
-
+  return 0 if array.length == 0
+  array[0] + sum_array(array[1..-1])
 end
 
 
@@ -67,7 +81,8 @@ end
 # reverse_string("internet")    # => "tenretni"
 # reverse_string("friends")     # => "sdneirf"
 def reverse_string(str)
-
+    return "" if str.length == 0
+    str[-1] + reverse_string(str[0...-1])
 end
 
 
@@ -100,5 +115,19 @@ end
 #     2-dimensional array: [['some data']]
 #     3-dimensional array: [[['some data']]]
 def flatten(data)
-
+  # return data if !data.is_a?(Array)
+  # # return data if data.flatten == data
+  # data.map { |el| flatten(el) }
+  return [data] unless data.is_a?(Array)
+  result = []
+  # data.each { |thing| flatten(thing).each { |ele| result << ele } }
+  data.each { |thing| result += flatten(thing) }
+  result
 end
+
+# def flatten_help(data)
+#   return [data] if !data.is_a?(Array)
+#   result = []
+#   data.each { |thing| flatten(thing).each { |ele| result << ele } }
+#   result
+# end
