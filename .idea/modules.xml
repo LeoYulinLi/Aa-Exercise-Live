@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mastermind_project.iml" filepath="$PROJECT_DIR$/.idea/modules/mastermind_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/meddling_medley.iml" filepath="$PROJECT_DIR$/.idea/modules/meddling_medley.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/memory_puzzle.iml" filepath="$PROJECT_DIR$/.idea/modules/memory_puzzle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/minesweeper.iml" filepath="$PROJECT_DIR$/.idea/modules/minesweeper.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/monkey_patching_project.iml" filepath="$PROJECT_DIR$/.idea/modules/monkey_patching_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/nauseating_numbers.iml" filepath="$PROJECT_DIR$/.idea/modules/nauseating_numbers.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/perilous_procs.iml" filepath="$PROJECT_DIR$/.idea/modules/perilous_procs.iml" />
@@ -33,6 +34,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/rspec_exercise_3.iml" filepath="$PROJECT_DIR$/.idea/modules/rspec_exercise_3.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/rspec_exercise_4.iml" filepath="$PROJECT_DIR$/.idea/modules/rspec_exercise_4.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/rspec_exercise_5.iml" filepath="$PROJECT_DIR$/.idea/modules/rspec_exercise_5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/screwedoku.iml" filepath="$PROJECT_DIR$/.idea/modules/screwedoku.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/startup_project.iml" filepath="$PROJECT_DIR$/.idea/modules/startup_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sudoku.iml" filepath="$PROJECT_DIR$/.idea/modules/sudoku.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/todo_board.iml" filepath="$PROJECT_DIR$/.idea/modules/todo_board.iml" />
