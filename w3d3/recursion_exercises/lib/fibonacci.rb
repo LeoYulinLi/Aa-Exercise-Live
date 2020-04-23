@@ -2,8 +2,8 @@ def fibonacci_recursive(n)
 
   return [1] if n == 1
   return [1, 1] if n == 2
-  sequenc = fibonacci_recursive(n - 1)
-  sequenc + [sequenc[-1] + sequenc[-2]]
+  sequence = fibonacci_recursive(n - 1)
+  sequence + [sequence[-1] + sequence[-2]]
 end
 
 def fibonacci_iterative(n)
@@ -28,6 +28,6 @@ def fibonacci_iterative2(n)
   result
 end
 
-p fibonacci_recursive(10)
-p fibonacci_iterative(10)
-p fibonacci_iterative2(10)
+p fibonacci_recursive(20)
+p fibonacci_iterative(20)
+p fibonacci_iterative2(20)

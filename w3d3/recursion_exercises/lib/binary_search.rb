@@ -1,6 +1,5 @@
 def bsearch(array, target)
-  # array.sort!
-  return nil if array.length == 0
+  return nil if array.empty?
 
   mid = array.length / 2
 

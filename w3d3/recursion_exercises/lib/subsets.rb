@@ -3,7 +3,7 @@ class Array
     return [self] if self.empty?
     temp = self[0...-1].subsets
     temp += temp.map {|ele| ele+[self.last]}
-    temp 
+    temp
   end
 end
 

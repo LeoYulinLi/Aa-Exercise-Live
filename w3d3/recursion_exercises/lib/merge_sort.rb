@@ -24,4 +24,7 @@ class Array
 
 end
 
-p [1, 2, 5, 2, 3, 4, 9, 10, 50, -1, -234, 7].merge_sort
+a = [1, 2, 5, 2, 3, 4, 9, 10, 50, -1, -234, 7]
+
+p a.merge_sort
+p a.sort
