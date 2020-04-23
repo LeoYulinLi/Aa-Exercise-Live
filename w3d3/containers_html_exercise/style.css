@@ -13,6 +13,11 @@ a {
     max-width: 768px;
 }
 
+.content img {
+    max-width: 640px;
+}
+
+
 .content h1 {
     text-align: center;
 }
