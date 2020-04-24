@@ -1,4 +1,4 @@
-require_relative "../../poly_tree_node/lib/00_tree_node.rb"
+require_relative "../../../w3d5/poly_tree_node/lib/00_tree_node.rb"
 
 class KnightPathFinder
   def initialize(start)
@@ -20,11 +20,13 @@ class KnightPathFinder
     KnightPathFinder.valid_moves(pos).reject { |p| @considered_positions.include?(p) }
   end
 
-  def build_move_tree
+  def build_move_tree(target)
     tree = PolyTreeNode.new(@start)
     queue = [tree]
     until queue.empty?
       current_node = queue.shift
+      return current_node if current_node.value == target
+
       queue += new_move_positions(current_node.value).map do |p|
         new_node = PolyTreeNode.new(p)
         @considered_positions << new_node.value
@@ -34,9 +36,24 @@ class KnightPathFinder
     end
     tree
   end
+
+  def trace_path_back(node)
+    result = [node.value]
+    until node.parent.nil?
+      result.unshift(node.parent.value)
+      node = node.parent
+    end
+    result
+  end
+
+  def find_path(end_position)
+    node = build_move_tree(end_position)
+    trace_path_back(node)
+  end
+
 end
 
 k = KnightPathFinder.new([0, 0])
-t =  k.build_move_tree
+t =  k.find_path([6,2])
 
 p t
