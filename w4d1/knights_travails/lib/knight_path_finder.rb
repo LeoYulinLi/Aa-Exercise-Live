@@ -8,11 +8,16 @@ class KnightPathFinder
 
   def self.valid_moves(pos)
     x, y = pos
-    potential_positions = (-1..1).flat_map do |i|
-      (-1..1).map do |j|
-        [i + x, j + y]
-      end
-    end
+    potential_positions = [
+      [x + 1, y + 2],
+      [x + 2, y + 1],
+      [x - 1, y + 2],
+      [x - 2, y + 1],
+      [x + 1, y - 2],
+      [x + 2, y - 1],
+      [x - 1, y - 2],
+      [x - 2, y - 1]
+    ]
     potential_positions.select { |(x, y)| (0...8).include?(x) && (0...8).include?(y) }
   end
 
@@ -54,6 +59,6 @@ class KnightPathFinder
 end
 
 k = KnightPathFinder.new([0, 0])
-t =  k.find_path([6,2])
+t =  k.find_path([7,6])
 
 p t
