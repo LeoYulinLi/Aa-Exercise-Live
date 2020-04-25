@@ -4,12 +4,21 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+      
         {
             "name": "Debug Local File",
             "type": "Ruby",
             "request": "launch",
             "cwd": "${workspaceRoot}",
             "program": "${file}"
+        },
+        {
+            "name": "RSpec Current",
+            "type": "Ruby",
+            "request": "launch",
+            "cwd": "${workspaceRoot}/${relativeFileDirname}/..",
+            "program": "~/.rbenv/versions/2.7.1/bin/rspec",
+            "args": ["spec/${fileBasename}"]
         }
     ]
 }
