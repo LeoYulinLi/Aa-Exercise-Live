@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/hangman_project.iml" filepath="$PROJECT_DIR$/.idea/modules/hangman_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/hotel_project.iml" filepath="$PROJECT_DIR$/.idea/modules/hotel_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/knights_travails.iml" filepath="$PROJECT_DIR$/.idea/modules/knights_travails.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/knights_travails1.iml" filepath="$PROJECT_DIR$/.idea/modules/knights_travails1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mastermind_project.iml" filepath="$PROJECT_DIR$/.idea/modules/mastermind_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/meddling_medley.iml" filepath="$PROJECT_DIR$/.idea/modules/meddling_medley.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/memory_puzzle.iml" filepath="$PROJECT_DIR$/.idea/modules/memory_puzzle.iml" />
@@ -37,6 +38,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/rspec_exercise_5.iml" filepath="$PROJECT_DIR$/.idea/modules/rspec_exercise_5.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/startup_project.iml" filepath="$PROJECT_DIR$/.idea/modules/startup_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sudoku.iml" filepath="$PROJECT_DIR$/.idea/modules/sudoku.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tic_tac_toe_ai.iml" filepath="$PROJECT_DIR$/.idea/modules/tic_tac_toe_ai.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/todo_board.iml" filepath="$PROJECT_DIR$/.idea/modules/todo_board.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/v1.iml" filepath="$PROJECT_DIR$/.idea/modules/v1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/v2.iml" filepath="$PROJECT_DIR$/.idea/modules/v2.iml" />
