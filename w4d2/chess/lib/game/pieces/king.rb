@@ -1,8 +1,8 @@
 require_relative "piece"
 
 class King < Piece
-  def initialize
-
+  def initialize(position, color, board)
+    super
   end
 
   def to_s
@@ -24,9 +24,14 @@ class King < Piece
     potential_new_positions = []
     moves.each do |(a, b)|
       new_pos = [a + x, b + y]
-      potential_new_positions << new_pos if Piece.valid_position?(new_pos)
+      potential_new_positions << new_pos if valid_position?(new_pos)
     end
     potential_new_positions
   end
 
+end
+
+if $PROGRAM_NAME == __FILE__
+  q = King.new([1, 1])
+  p q.possible_moves
 end

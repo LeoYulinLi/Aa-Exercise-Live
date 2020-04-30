@@ -4,7 +4,11 @@ require_relative "piece"
 class NullPiece < Piece
   include Singleton
 
+  def initialize
+    super(nil, nil, board)
+  end
+
   def to_s
-    "⬜"
+    "_"
   end
 end
