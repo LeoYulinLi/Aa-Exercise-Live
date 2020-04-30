@@ -8,10 +8,13 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/battleship_project.iml" filepath="$PROJECT_DIR$/.idea/modules/battleship_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/blocks_project.iml" filepath="$PROJECT_DIR$/.idea/modules/blocks_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/bootcamp_project.iml" filepath="$PROJECT_DIR$/.idea/modules/bootcamp_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chess.iml" filepath="$PROJECT_DIR$/.idea/modules/chess.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/class_inheritance.iml" filepath="$PROJECT_DIR$/.idea/modules/class_inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/debugging_exercise_1.iml" filepath="$PROJECT_DIR$/.idea/modules/debugging_exercise_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/debugging_exercise_2.iml" filepath="$PROJECT_DIR$/.idea/modules/debugging_exercise_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/dog_project.iml" filepath="$PROJECT_DIR$/.idea/modules/dog_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/error_handling.iml" filepath="$PROJECT_DIR$/.idea/modules/error_handling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/first_tdd_projects.iml" filepath="$PROJECT_DIR$/.idea/modules/first_tdd_projects.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/flight_project.iml" filepath="$PROJECT_DIR$/.idea/modules/flight_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/guessing_game_project.iml" filepath="$PROJECT_DIR$/.idea/modules/guessing_game_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/hangman_project.iml" filepath="$PROJECT_DIR$/.idea/modules/hangman_project.iml" />
