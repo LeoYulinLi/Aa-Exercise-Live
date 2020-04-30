@@ -6,7 +6,7 @@ class King < Piece
   end
 
   def to_s
-    "♛"
+    "♛ "
   end
 
   def possible_moves

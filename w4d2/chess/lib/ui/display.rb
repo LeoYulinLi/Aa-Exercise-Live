@@ -26,7 +26,7 @@ class Display
         else
           result.colorize(:color => ele.color, :background => :green)
         end
-      end.join(" ".colorize(:background => :green))
+      end.join
     end.join("\n")
   end
 
