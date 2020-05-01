@@ -44,3 +44,19 @@ ol {
 }
 
 
+input[type="radio"] {
+  cursor: pointer;
+  outline: none;
+}
+
+input[type="submit"]:last-child {
+  background-color: gold;
+}
+
+input[type="submit"]:last-child:hover {
+  filter: brightness(85%);
+}
+
+ol li:nth-child(odd) {
+  background-color: lightgray;
+}
