@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/Aa-Exercise-Live.iml" filepath="$PROJECT_DIR$/.idea/Aa-Exercise-Live.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/advanced_methods_exercise.iml" filepath="$PROJECT_DIR$/.idea/modules/advanced_methods_exercise.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/algorithmic_strategies_exercise.iml" filepath="$PROJECT_DIR$/.idea/modules/algorithmic_strategies_exercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/anagrams.iml" filepath="$PROJECT_DIR$/.idea/modules/anagrams.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/battleship_project.iml" filepath="$PROJECT_DIR$/.idea/modules/battleship_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/blocks_project.iml" filepath="$PROJECT_DIR$/.idea/modules/blocks_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/bootcamp_project.iml" filepath="$PROJECT_DIR$/.idea/modules/bootcamp_project.iml" />
@@ -14,10 +15,12 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/debugging_exercise_2.iml" filepath="$PROJECT_DIR$/.idea/modules/debugging_exercise_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/dog_project.iml" filepath="$PROJECT_DIR$/.idea/modules/dog_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/error_handling.iml" filepath="$PROJECT_DIR$/.idea/modules/error_handling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/execution_time_differences.iml" filepath="$PROJECT_DIR$/.idea/modules/execution_time_differences.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/first_tdd_projects.iml" filepath="$PROJECT_DIR$/.idea/modules/first_tdd_projects.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/flight_project.iml" filepath="$PROJECT_DIR$/.idea/modules/flight_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/guessing_game_project.iml" filepath="$PROJECT_DIR$/.idea/modules/guessing_game_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/hangman_project.iml" filepath="$PROJECT_DIR$/.idea/modules/hangman_project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hash_map_lru_cache.iml" filepath="$PROJECT_DIR$/.idea/modules/hash_map_lru_cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/hotel_project.iml" filepath="$PROJECT_DIR$/.idea/modules/hotel_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/knights_travails.iml" filepath="$PROJECT_DIR$/.idea/modules/knights_travails.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/knights_travails1.iml" filepath="$PROJECT_DIR$/.idea/modules/knights_travails1.iml" />
@@ -27,6 +30,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/monkey_patching_project.iml" filepath="$PROJECT_DIR$/.idea/modules/monkey_patching_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/nauseating_numbers.iml" filepath="$PROJECT_DIR$/.idea/modules/nauseating_numbers.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/perilous_procs.iml" filepath="$PROJECT_DIR$/.idea/modules/perilous_procs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/poker.iml" filepath="$PROJECT_DIR$/.idea/modules/poker.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/poly_tree_node.iml" filepath="$PROJECT_DIR$/.idea/modules/poly_tree_node.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/procs_project.iml" filepath="$PROJECT_DIR$/.idea/modules/procs_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/recap_exercise_1.iml" filepath="$PROJECT_DIR$/.idea/modules/recap_exercise_1.iml" />
@@ -44,9 +48,11 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sudoku.iml" filepath="$PROJECT_DIR$/.idea/modules/sudoku.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/tic_tac_toe_ai.iml" filepath="$PROJECT_DIR$/.idea/modules/tic_tac_toe_ai.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/todo_board.iml" filepath="$PROJECT_DIR$/.idea/modules/todo_board.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/two_sum_problem.iml" filepath="$PROJECT_DIR$/.idea/modules/two_sum_problem.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/v1.iml" filepath="$PROJECT_DIR$/.idea/modules/v1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/v2.iml" filepath="$PROJECT_DIR$/.idea/modules/v2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/v3.iml" filepath="$PROJECT_DIR$/.idea/modules/v3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/windowed_max_range.iml" filepath="$PROJECT_DIR$/.idea/modules/windowed_max_range.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/word_chains.iml" filepath="$PROJECT_DIR$/.idea/modules/word_chains.iml" />
     </modules>
   </component>
