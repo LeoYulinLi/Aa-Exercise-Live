@@ -14,6 +14,11 @@ class LRUCache
   end
 
   def get(key)
+    unless @map.include?(key)
+      @store.append(key, @prc.call(key))
+      @map[key] = @store.last
+    end
+    @map[key].key
   end
 
   def to_s
