@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Aa-Exercise-Live.iml" filepath="$PROJECT_DIR$/.idea/Aa-Exercise-Live.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aa_questions.iml" filepath="$PROJECT_DIR$/.idea/modules/aa_questions.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/advanced_methods_exercise.iml" filepath="$PROJECT_DIR$/.idea/modules/advanced_methods_exercise.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/algorithmic_strategies_exercise.iml" filepath="$PROJECT_DIR$/.idea/modules/algorithmic_strategies_exercise.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/anagrams.iml" filepath="$PROJECT_DIR$/.idea/modules/anagrams.iml" />
@@ -44,6 +45,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/rspec_exercise_3.iml" filepath="$PROJECT_DIR$/.idea/modules/rspec_exercise_3.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/rspec_exercise_4.iml" filepath="$PROJECT_DIR$/.idea/modules/rspec_exercise_4.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/rspec_exercise_5.iml" filepath="$PROJECT_DIR$/.idea/modules/rspec_exercise_5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sqlzoo.iml" filepath="$PROJECT_DIR$/.idea/modules/sqlzoo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/startup_project.iml" filepath="$PROJECT_DIR$/.idea/modules/startup_project.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sudoku.iml" filepath="$PROJECT_DIR$/.idea/modules/sudoku.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/tic_tac_toe_ai.iml" filepath="$PROJECT_DIR$/.idea/modules/tic_tac_toe_ai.iml" />
