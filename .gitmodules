@@ -1,0 +1,3 @@
+[submodule "w5d4/aa-url-shortener"]
+	path = w5d4/aa-url-shortener
+	url = https://github.com/LeoYulinLiAa/aa-url-shortener.git
