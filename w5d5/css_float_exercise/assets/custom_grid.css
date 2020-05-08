@@ -1,1 +1,8 @@
 /* PUT FLUID GRID CODE HERE */
+aside {
+    float: left;
+}
+
+.main {
+    float: right;
+}
