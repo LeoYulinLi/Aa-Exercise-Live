@@ -1,3 +1,9 @@
 [submodule "w5d4/aa-url-shortener"]
 	path = w5d4/aa-url-shortener
 	url = https://github.com/LeoYulinLiAa/aa-url-shortener.git
+[submodule "w5d5/movie_buff"]
+	path = w5d5/movie_buff
+	url = https://github.com/LeoYulinLiAa/movie_buff.git
+[submodule "w5d5/polls_app"]
+	path = w5d5/polls_app
+	url = https://github.com/LeoYulinLiAa/polls_app.git
