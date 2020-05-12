@@ -15,6 +15,9 @@ Gemfile.lock
 # RubyMine
 .idea
 
+# Database
+*.db
+
 # Used by dotenv library to load environment variables.
 # .env
 
