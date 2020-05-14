@@ -7,3 +7,9 @@
 [submodule "w5d5/polls_app"]
 	path = w5d5/polls_app
 	url = https://github.com/LeoYulinLiAa/polls_app.git
+[submodule "w6d3/first_routes_and_controllers"]
+	path = w6d3/first_routes_and_controllers
+	url = https://github.com/LeoYulinLiAa/first_routes_and_controllers.git
+[submodule "w6d3/art_share_api"]
+	path = w6d3/art_share_api
+	url = https://github.com/LeoYulinLiAa/art_share_api.git
