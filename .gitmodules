@@ -13,3 +13,6 @@
 [submodule "w6d3/art_share_api"]
 	path = w6d3/art_share_api
 	url = https://github.com/LeoYulinLiAa/art_share_api.git
+[submodule "w6d4/art_share_api"]
+	path = w6d4/art_share_api
+	url = https://github.com/LeoYulinLiAa/art_share_api.git
