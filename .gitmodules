@@ -16,3 +16,6 @@
 [submodule "w6d4/art_share_api"]
 	path = w6d4/art_share_api
 	url = https://github.com/LeoYulinLiAa/art_share_api.git
+[submodule "w6d5/cats-99"]
+	path = w6d5/cats-99
+	url = https://github.com/LeoYulinLiAa/cats-99.git
