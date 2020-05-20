@@ -19,3 +19,6 @@
 [submodule "w6d5/cats-99"]
 	path = w6d5/cats-99
 	url = https://github.com/LeoYulinLiAa/cats-99.git
+[submodule "w7d2/music_app"]
+	path = w7d2/music_app
+	url = https://github.com/LeoYulinLiAa/music_app.git
