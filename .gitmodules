@@ -22,3 +22,6 @@
 [submodule "w7d2/music_app"]
 	path = w7d2/music_app
 	url = https://github.com/LeoYulinLiAa/music_app.git
+[submodule "w7d3/goal_app"]
+	path = w7d3/goal_app
+	url = https://github.com/LeoYulinLiAa/goal_app.git
