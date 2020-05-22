@@ -25,3 +25,6 @@
 [submodule "w7d3/goal_app"]
 	path = w7d3/goal_app
 	url = https://github.com/LeoYulinLiAa/goal_app.git
+[submodule "w7d4/aa_times"]
+	path = w7d4/aa_times
+	url = https://github.com/LeoYulinLiAa/aa_times.git
