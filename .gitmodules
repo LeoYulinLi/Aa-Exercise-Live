@@ -28,3 +28,6 @@
 [submodule "w7d4/aa_times"]
 	path = w7d4/aa_times
 	url = https://github.com/LeoYulinLiAa/aa_times.git
+[submodule "w7d5/redit_clone"]
+	path = w7d5/redit_clone
+	url = https://github.com/LeoYulinLiAa/redit_clone.git
