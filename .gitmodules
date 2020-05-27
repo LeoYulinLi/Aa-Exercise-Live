@@ -31,3 +31,6 @@
 [submodule "w7d5/redit_clone"]
 	path = w7d5/redit_clone
 	url = https://github.com/LeoYulinLiAa/redit_clone.git
+[submodule "w8d2/rails_lite"]
+	path = w8d2/rails_lite
+	url = https://github.com/LeoYulinLiAa/rails_lite.git
