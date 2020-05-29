@@ -10,6 +10,10 @@ class Clock {
 
   }
 
+  displayTime() {
+    $("#clock").text(this.timeString);
+  }
+
   printTime() {
     // Format the time in HH:MM:SS
     // Use console.log to print it.
