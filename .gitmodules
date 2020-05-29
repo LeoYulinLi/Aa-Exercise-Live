@@ -34,3 +34,6 @@
 [submodule "w8d2/rails_lite"]
 	path = w8d2/rails_lite
 	url = https://github.com/LeoYulinLiAa/rails_lite.git
+[submodule "w8d4/reversi"]
+	path = w8d4/reversi
+	url = https://github.com/LeoYulinLiAa/reversi.git
