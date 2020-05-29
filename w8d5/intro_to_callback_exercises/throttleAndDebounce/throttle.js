@@ -2,12 +2,24 @@
  * @param {number} interval milliseconds
  */
 Function.prototype.myThrottle = function (interval) {
+  let tooSoon = false;
+
+  return () => {
+    if (!tooSoon) {
+      tooSoon = true;
+      setTimeout(() => {
+        tooSoon = false;
+      }, interval);
+      this();
+    }
+  }
 
 }
 
 class Neuron {
   fire() {
     console.log("Firing!");
+    console.log(new Date().toLocaleTimeString());
   }
 }
 
