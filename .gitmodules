@@ -40,3 +40,9 @@
 [submodule "w9d2/asteroids"]
 	path = w9d2/asteroids
 	url = https://github.com/LeoYulinLiAa/asteroids.git
+[submodule "w9d3/towers_of_hanoi_jquery"]
+	path = w9d3/towers_of_hanoi_jquery
+	url = https://github.com/LeoYulinLiAa/towers_of_hanoi_jquery.git
+[submodule "w9d3/tic_tac_toe_jquery"]
+	path = w9d3/tic_tac_toe_jquery
+	url = https://github.com/LeoYulinLiAa/tic_tac_toe_jquery.git
