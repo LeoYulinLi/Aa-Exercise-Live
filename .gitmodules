@@ -46,3 +46,6 @@
 [submodule "w9d3/tic_tac_toe_jquery"]
 	path = w9d3/tic_tac_toe_jquery
 	url = https://github.com/LeoYulinLiAa/tic_tac_toe_jquery.git
+[submodule "w9d4/twitter_ajax"]
+	path = w9d4/twitter_ajax
+	url = https://github.com/LeoYulinLiAa/twitter_ajax.git
