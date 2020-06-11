@@ -49,3 +49,15 @@
 [submodule "w9d4/twitter_ajax"]
 	path = w9d4/twitter_ajax
 	url = https://github.com/LeoYulinLiAa/twitter_ajax.git
+[submodule "w10d3/react_minesweeper"]
+	path = w10d3/react_minesweeper
+	url = https://github.com/LeoYulinLiAa/react_minesweeper.git
+[submodule "w10d2/react_widgets"]
+	path = w10d2/react_widgets
+	url = https://github.com/LeoYulinLiAa/react_widgets.git
+[submodule "w10d1/pocket_project"]
+	path = w10d1/pocket_project
+	url = https://github.com/LeoYulinLiAa/pocket_project.git
+[submodule "w9d5/jquery_lite"]
+	path = w9d5/jquery_lite
+	url = https://github.com/LeoYulinLiAa/jquery_lite.git
