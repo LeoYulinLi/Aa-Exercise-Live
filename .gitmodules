@@ -61,3 +61,12 @@
 [submodule "w9d5/jquery_lite"]
 	path = w9d5/jquery_lite
 	url = https://github.com/LeoYulinLiAa/jquery_lite.git
+[submodule "w10d5/todos"]
+	path = w10d5/todos
+	url = https://github.com/LeoYulinLiAa/todos.git
+[submodule "w11d1/jbuilder"]
+	path = w11d1/jbuilder
+	url = https://github.com/LeoYulinLiAa/jbuilder.git
+[submodule "w11d1/pokedex"]
+	path = w11d1/pokedex
+	url = https://github.com/LeoYulinLiAa/pokedex.git
