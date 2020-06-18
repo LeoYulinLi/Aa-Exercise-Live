@@ -73,3 +73,9 @@
 [submodule "w11d2/pokedex"]
 	path = w11d2/pokedex
 	url = https://github.com/LeoYulinLiAa/pokedex.git
+[submodule "w11d3/bench_bnb"]
+	path = w11d3/bench_bnb
+	url = https://github.com/LeoYulinLiAa/bench_bnb.git
+[submodule "w11d3/frontend_auth"]
+	path = w11d3/frontend_auth
+	url = https://github.com/LeoYulinLiAa/frontend_auth.git
