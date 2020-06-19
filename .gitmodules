@@ -79,3 +79,6 @@
 [submodule "w11d3/frontend_auth"]
 	path = w11d3/frontend_auth
 	url = https://github.com/LeoYulinLiAa/frontend_auth.git
+[submodule "w11d4/bench_bnb"]
+	path = w11d4/bench_bnb
+	url = https://github.com/LeoYulinLiAa/bench_bnb.git
