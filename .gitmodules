@@ -82,3 +82,6 @@
 [submodule "w11d4/bench_bnb"]
 	path = w11d4/bench_bnb
 	url = https://github.com/LeoYulinLiAa/bench_bnb.git
+[submodule "w11d5/bench_bnb"]
+	path = w11d5/bench_bnb
+	url = https://github.com/LeoYulinLiAa/bench_bnb.git
